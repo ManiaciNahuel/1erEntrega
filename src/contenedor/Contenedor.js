@@ -16,8 +16,12 @@ class Contenedor {
     }
     getOne(id) {
         const objects = this.getAll()
-        const found = objects.find(prod => prod.id == id)
-        return found
+        if (id <= 0 || id > objects.length) {
+            throw new Error(`Error al actualizar: no existe el id ${id}`)
+        } else {
+            const found = objects.find(prod => prod.id == id)
+            return found
+        }
     }
 
     postNew(newObject) {
@@ -88,6 +92,7 @@ class Contenedor {
             throw new Error(`Error al borrar todo: ${error}`)
         }
     }
+
 }
 
 module.exports = Contenedor

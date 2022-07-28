@@ -25,6 +25,7 @@ routerCarrito
 .get('/:id/productos', (req, res) => {
     const cartId = req.params.id
     const carrito = carritos.getOne(cartId)
+
     res.json(carrito.productos)
 })
 
@@ -40,11 +41,14 @@ routerCarrito
 //Eliminar un producto del carrito por ids
 .delete('/:id/productos/:id_prod', (req, res) => {
     const cartId = req.params.id
+    const prodId = req.params.id_prod
     const carrito = carritos.getOne(cartId)
-    const index = carrito.productos.findIndex(p => p.id == req.params.id_prod)
+
+    const index = carrito.productos.findIndex(prod => prod.id == prodId)
     if (index != -1) {
         carrito.productos.splice(index, 1)
         carritos.upload(carrito, cartId)
+        res.send(carrito.productos)
     }
     res.end()
 })
