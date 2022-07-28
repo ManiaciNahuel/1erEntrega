@@ -1,0 +1,44 @@
+[{
+    "productos": [{
+            "nombre": "Producto 1",
+            "precio": 1250,
+            "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aaqqdqqas-256.png",
+            "id": 1,
+            "stock": 100,
+            "timestamp": 1658620433153,
+            "code": "Pr1658620433153",
+            "descripcion": "Descripción del producto"
+        },
+        {
+            "nombre": "Producto 2",
+            "precio": 2250,
+            "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aeaaqas-256.png",
+            "id": 2,
+            "stock": 100,
+            "timestamp": 1658620433153,
+            "code": "Pr1658620433153",
+            "descripcion": "Descripción del producto"
+        },
+        {
+            "nombre": "Producto 3",
+            "precio": 3250,
+            "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/tempaltaaae-256.png",
+            "id": 3,
+            "stock": 100,
+            "timestamp": 1658620433153,
+            "code": "Pr1658620433153",
+            "descripcion": "Descripción del producto"
+        },
+        {
+            "nombre": "Producto 4",
+            "precio": 1250,
+            "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aaqqdqqas-256.png",
+            "id": 4,
+            "stock": 100,
+            "timestamp": 1658620433153,
+            "code": "Pr1658620433153",
+            "descripcion": "Descripción del producto"
+        }
+    ],
+    "id": 1
+}]

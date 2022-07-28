@@ -1,0 +1,37 @@
+[{
+        "title": "Producto 1",
+        "price": 1250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aaqqdqqas-256.png",
+        "id": 1
+    },
+    {
+        "title": "Producto 2",
+        "price": 2250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aeaaqas-256.png",
+        "id": 2
+    },
+    {
+        "title": "Producto 3",
+        "price": 3250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/tempaltaaae-256.png",
+        "id": 3
+    },
+    {
+        "title": "Producto 4",
+        "price": 1250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aaqqdqqas-256.png",
+        "id": 4
+    },
+    {
+        "title": "Producto 5",
+        "price": 2250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/aeaaqas-256.png",
+        "id": 5
+    },
+    {
+        "title": "Producto 6",
+        "price": 6250,
+        "imagen": "https://cdn3.iconfinder.com/data/icons/nature-37/120/tempaltaaae-256.png",
+        "id": 6
+    }
+]
